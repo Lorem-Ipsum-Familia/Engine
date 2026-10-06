@@ -361,7 +361,7 @@
     <div class="eyebrow">Portofolio</div>
     <h1>Hello Im Jorell</h1>
     <p class="lead">
-      I have one year of experience in software development. 
+      I have one year of experience in Software Development and Reverse Engineering. 
     </p>
     <div class="actions">
       <a class="btn primary" href="#projects">My Project</a>
@@ -384,8 +384,7 @@
          I’m just an ordinary teenager who eats rice and has a strong interest in cybersecurity, hacking, and programming. My journey started when I was young and discovered Minecraft, where I became fascinated by using commands and code to create simple systems like shops and teleportation. Later, I started learning to create Minecraft addons, which introduced me to programming through JSON and JavaScript rather than HTML. Since then, I’ve continued learning, experimenting, and building things on my own until I was able to create my own tools.
         </p>
         <p>
-          Paragraf kedua bisa membahas pendekatan kerja Anda, nilai yang Anda pegang,
-          atau pencapaian yang ingin Anda soroti.
+          The highlight of my career in reverse engineering was successfully forcing the Roblox engine to run offline by manipulating the kick system, error message, and server authority, and subsequently creating a game reverse-engineering IDE modeled after Roblox Studio.
         </p>
         <div class="tags">
           <span>Node JS</span>
@@ -419,7 +418,7 @@
       <div class="project-row">
         <span class="index">03</span>
         <h3>Rebellion Engine</h3>
-        <span class="stack">This is an idea I developed for debugging and exploit creation. It includes features such as instance serialization, a function dumper, remote spy, and much more.</span>
+        <span class="stack">This is an IDE I developed for debugging and exploit creation. It includes features such as instance serialization, a function dumper, remote spy, and much more.</span>
         <a class="go" href="https://github.com/Lorem-Ipsum-Familia/Engine">Lihat →</a>
       </div>
     </div>
@@ -437,17 +436,16 @@
       </p>
       <div class="contact-links">
         <a href="mailto:winzhipu1@gmail.com">winzhipu1@gmail.com</a>
-        <a href="#">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jorell-xander-ab45b53b3/">LinkedIn</a>
         <a href="https://discord.gg/WmsssRkgd2">Discord Server</a>
-        <a href="#">GitHub</a>
-        <a href="#">Instagram</a>
+        <a href="https://github.com/JokoFernandes">GitHub</a>
       </div>
     </div>
   </section>
 
   <footer id="endl">
-    <span>© 2026 Nama Anda</span>
-    <span>Dibangun dengan niat baik dan kopi</span>
+    <span>© 2026 Jorell</span>
+    <span>Powered By Claude AI FR FR</span>
   </footer>
 
 </div>
@@ -562,19 +560,22 @@
 
     const elapsed = performance.now() - start;
 
-    if (elapsed > 300) {
-        alert("Why are you using dev tools? trying to steal my portfolio? Come on, this is just a page i make by vibe coding this you can do that to skid");
+    if (elapsed > 180) {
+        const res = confirm("Why are you using dev tools? trying to steal my portfolio? Come on, this is just a page i make by vibe coding this you can do that to skid");
+        if(!res){
+          window.location.href = "https://www.youtube.com/watch?v=nGVneGgMpv0"
+        }
         violation += 1
         if(violation >= 3){
-          window.open("https://www.youtube.com","_blank","width=1000,height=500")
+          document.body.innerHTML = "FUCK STOP STEALING"
           
-          window.open("https://www.youtube.com","_blank","width=1000,height=500")
-          
-          window.open("https://www.youtube.com","_blank","width=1000,height=500")
-          
-          window.open("https://www.youtube.com","_blank","width=1000,height=500")
-          
-          window.open("https://www.youtube.com","_blank","width=1000,height=500")
+          while(true){
+            const bomb = []
+            bomb.push(new Array(10000000).join("NO_DEV_TOOL_ALLOWED"));
+            console.log("%cSTOP IT SKID", "font-size:100px; color:red;");
+            console.log("%cFUCK", "font-size:100px; color:red;");
+            window.location.hash = "NO_1_SKID_IN_THE_WORLD"
+          }
         }
     }
   },100);
